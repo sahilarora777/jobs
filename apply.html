@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Job</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Apply for Job</h2>
+        <form enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phone" required>
+            </div>
+            <div class="mb-3">
+                <label for="cv" class="form-label">Upload CV</label>
+                <input type="file" class="form-control" id="cv" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div class="mb-3">
+                <label for="coverLetter" class="form-label">Cover Letter</label>
+                <textarea class="form-control" id="coverLetter" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
